@@ -19,6 +19,15 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([sender isKindOfClass:[UIButton class]]) {
+        if ([segue.destinationViewController isKindOfClass:[DetailViewController class]]) {
+            DetailViewController *nextView = segue.destinationViewController;
+            nextView.textString = self.textField.text;
+        }
+    }
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

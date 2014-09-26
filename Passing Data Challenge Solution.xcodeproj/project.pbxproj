@@ -15,6 +15,7 @@
 		151BC6F419D5F88A00A7F025 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151BC6F319D5F88A00A7F025 /* Images.xcassets */; };
 		151BC6F719D5F88A00A7F025 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151BC6F519D5F88A00A7F025 /* LaunchScreen.xib */; };
 		151BC70319D5F88A00A7F025 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151BC70219D5F88A00A7F025 /* Passing_Data_Challenge_SolutionTests.m */; };
+		151BC70E19D5FADE00A7F025 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151BC70D19D5FADE00A7F025 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		151BC6FC19D5F88A00A7F025 /* Passing Data Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Passing Data Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		151BC70119D5F88A00A7F025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		151BC70219D5F88A00A7F025 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		151BC70C19D5FADE00A7F025 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		151BC70D19D5FADE00A7F025 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				151BC6ED19D5F88A00A7F025 /* ViewController.h */,
 				151BC6EE19D5F88A00A7F025 /* ViewController.m */,
 				151BC6F019D5F88A00A7F025 /* Main.storyboard */,
+				151BC70C19D5FADE00A7F025 /* DetailViewController.h */,
+				151BC70D19D5FADE00A7F025 /* DetailViewController.m */,
 				151BC6F319D5F88A00A7F025 /* Images.xcassets */,
 				151BC6F519D5F88A00A7F025 /* LaunchScreen.xib */,
 				151BC6EA19D5F88A00A7F025 /* Passing_Data_Challenge_Solution.xcdatamodeld */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151BC70E19D5FADE00A7F025 /* DetailViewController.m in Sources */,
 				151BC6E919D5F88A00A7F025 /* AppDelegate.m in Sources */,
 				151BC6E619D5F88A00A7F025 /* main.m in Sources */,
 				151BC6EF19D5F88A00A7F025 /* ViewController.m in Sources */,
